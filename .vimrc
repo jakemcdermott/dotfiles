@@ -17,6 +17,6 @@ inoremap jk <Esc>
 " Ctrl-n to switch to next buffer
 :nnoremap <C-n> :bnext<CR>
 
-" Ctrl-p to switch to previous bufffer
+" Ctrl-p to switch to previous buffer
 :nnoremap <C-p> :bprevious<CR>
 

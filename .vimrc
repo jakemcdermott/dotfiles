@@ -14,9 +14,5 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 " Type jk to escape as an alternative to esc key
 inoremap jk <Esc>
 
-" Ctrl-n to switch to next buffer
-:nnoremap <C-n> :bnext<CR>
-
-" Ctrl-p to switch to previous buffer
-:nnoremap <C-p> :bprevious<CR>
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
